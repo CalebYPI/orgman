@@ -1,11 +1,12 @@
 package ac.za.cput.adp3.xyzcongolmerate.factory.demography;
 
 import ac.za.cput.adp3.xyzcongolmerate.domain.demography.Race;
+import ac.za.cput.adp3.xyzcongolmerate.util.Misc;
 
 public class RaceFactory {
 
     //TODO: Implement body
     public static Race buildRace(String raceDescription) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return new Race.Builder().raceId(Misc.generateId()).raceDescription(raceDescription).build();
     }
 }
