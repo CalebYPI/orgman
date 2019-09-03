@@ -1,5 +1,6 @@
 package ac.za.cput.adp3.xyzcongolmerate.factory.user;
 
+import ac.za.cput.adp3.xyzcongolmerate.domain.org.Organisation;
 import ac.za.cput.adp3.xyzcongolmerate.domain.user.UserRole;
 import org.junit.Assert;
 import org.junit.Before;
