@@ -40,7 +40,7 @@ public class UserDemographyRepositoryImpl implements UserDemographyRepository {
 
     //TODO: Implement body
     @Override
-    public void delete(String userEmail) {
+    public boolean delete(String userEmail) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 

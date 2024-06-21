@@ -40,13 +40,13 @@ public class OrganisationRepositoryImpl implements OrganisationRepository {
 
     //TODO: Implement body
     @Override
-    public void delete(String orgCode) {
+    public boolean delete(String orgCode) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     //TODO: Implement body
     @Override
     public Set<Organisation> getAll() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return organisationDB;
     }
 }

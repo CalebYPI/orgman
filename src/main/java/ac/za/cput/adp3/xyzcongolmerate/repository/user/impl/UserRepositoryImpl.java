@@ -40,7 +40,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     //TODO: Implement body
     @Override
-    public void delete(String email) {
+    public boolean delete(String email) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
